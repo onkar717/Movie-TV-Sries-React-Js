@@ -1,0 +1,12 @@
+import React from "react";
+import "../App.css";
+
+const Header = () => {
+  return (
+    <>
+      <div onClick={() => window.scroll(0,0)} className="header">Entertainment Hub</div>
+    </>
+  );
+};
+
+export default Header;
